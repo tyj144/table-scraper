@@ -1,6 +1,6 @@
 # Table Scraper
 ## What It Does
-Turns an HTML table into a list of Python dictionaries, where each row is a dictionary and each key-value pair is an attribute of a row.
+Scrapes data from HTML tables into a Python-friendly format. Turns an HTML table into a list of Python dictionaries, where each row is a dictionary and each key-value pair is an attribute of a row.
 
 Table Scraper is currently being used for [Google Calendar Automator](https://github.com/tyj144/google-calendar-automator) to parse schedules and upload events to Google Calendar and for the [CBCGN website](https://cbcgn.herokuapp.com/) to pull [sermons](https://cbcgn.herokuapp.com/sermons/) from their [old sermons page](https://cbcgn-public.sharepoint.com/sunday-sermons1).
 
