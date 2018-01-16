@@ -4,6 +4,14 @@ Turns an HTML table into a list of Python dictionaries, where each row is a dict
 
 Table Scraper is currently being used for [Google Calendar Automator](https://github.com/tyj144/google-calendar-automator) to parse schedules and upload events to Google Calendar and for the [CBCGN website](https://cbcgn.herokuapp.com/) to pull [sermons](https://cbcgn.herokuapp.com/sermons/) from their [old sermons page](https://cbcgn-public.sharepoint.com/sunday-sermons1).
 
+## Installation and Usage
+1. Clone the project using `git clone https://github.com/tyj144/table-scraper.git` or download the ZIP file by clicking the green "Clone or download button" above.
+2. Install the requirements by running `pip install requirements.txt`.
+3. In your project or in a Python shell, import the table scraper by typing `import tblscraper`.
+4. Try an example, such as `tblscraper.scrape_by_file("sample_html_tables/basic_table.html")`. The results should look like the example below.
+
+The tblscraper module also includes the ability to parse HTML directly using the `scrape_by_html` function and most importantly, can scrape a table by going to a page's URL using the `scrape_by_url` function.
+
 ## Example
 An HTML table that looks like:
 ```
